@@ -29,7 +29,7 @@ boot_page_table1:
 .skip 4096
 
 # Kernel entry point
-.section .multiboot.text, "a"
+.section .multiboot.text, "ax"
 .global _start
 .type _start, @function
 _start:
